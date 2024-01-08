@@ -25,7 +25,6 @@ function calcularRankeadas(vitorias, derrotas) {
       break;
     case saldoVitorias >= 101:
       nivel = "Imortal";
-      break;
   }
 
   return `"O Herói tem saldo de ${saldoVitorias} vitórias e está no nível de ${nivel}"`;
